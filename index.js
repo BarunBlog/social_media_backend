@@ -30,7 +30,7 @@ app.use(morgan("common")); // logging middleware
 
 // add cors middleware with specific allowed origins
 const allowedOrigins = [
-    'http://localhost:5000',
+    'http://localhost:3000',
     'https://bindsocial.onrender.com'
 ];
 
